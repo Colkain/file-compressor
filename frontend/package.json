@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "jimp": "^0.16.2",
+    "next": "12.3.1",
+    "postcss": "^8.4.17",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.2",
+    "resize-optimize-images": "^1.1.2",
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
