@@ -15,7 +15,7 @@ exports.create = async (req, res) => {
         .resize({ height: parseInt(resolution) })
         .webp({ quality: parseInt(quality) })
         .toFile(`uploads/${name}.webp`, (err, data) => {
-          if (blur)
+          if (blur === "true")
             sharp(file.data)
               .resize({ height: parseInt(resolution) * 0.1 })
               .webp({ quality: 10 })
