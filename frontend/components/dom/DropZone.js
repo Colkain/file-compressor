@@ -34,7 +34,7 @@ function DropZone({ files, setFiles }) {
       {...getRootProps()}
       className="w-1/3 p-20 border border-white border-dashed rounded-md cursor-pointer text-center"
     >
-      <input {...getInputProps()} accept="image/*" />
+      <input {...getInputProps()} />
       {isDragActive ? (
         <p>Drop the files here ...</p>
       ) : (
